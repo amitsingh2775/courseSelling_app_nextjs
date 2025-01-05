@@ -7,6 +7,8 @@ export async function ensureConnectDB() {
     }
     alreadyDone=true;
     await mongoose.connect('mongodb+srv://dearjhon977:18745@cluster0.viogx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+    console.log("database is connected");
+    
     
 
 }
